@@ -24,7 +24,7 @@
 	width: 118px;
 }
 #canvas-panel-title-pacman { 
-	background-color: #000;
+	background-color: trasnparent;
 	position: absolute;
 	top: 6px;
 	left: 47px;

@@ -29,7 +29,7 @@ html, body {
 	height: 100%;
 }
 html  { 
-	background-color: #000;
+	background-color: transparent;
 }
 body { 
 	position: relative;
@@ -39,7 +39,7 @@ body {
 #score, #highscore  { 
 	position: absolute;
 	display: inline;
-	top: 70px;
+	top: 670px;
 	margin: 0px;
 	padding: 0px;
 	width: 160px;
@@ -56,14 +56,16 @@ body {
 	height: 21px;
 	margin: 0px;
 	padding: 0px;
-	text-align: right;
-	padding-right: 15px;
+	text-align: center;
+	/* padding-right: 15px; */
+	color: yellow;
 }
 #score span, #highscore span { 
 	padding-right: 0px;
+	color: red;
 }
 #highscore span { 
-	padding-right: 40px;
+	/* padding-right: 40px; */
 }
 #message { 
 	position: absolute;
@@ -97,16 +99,20 @@ span.combo, span.fruits {
 	width: 550px;
 	height: 690px;
 	margin: auto;
-	margin-top: 10px;
+	margin-top: 70px;
 	left: 0px;
 	right: 0px;
 	position: absolute;
 	padding: 5px 10px 10px 10px;
-	background-color: #000;
+	background-color: transparent;
+}	
+#home { 
+	margin-left: 620px;
 }			
+		
 #board, #canvas-board, #canvas-paths, #canvas-fruits, #canvas-pacman, #canvas-bubbles, #canvas-ghost-blinky, #canvas-ghost-pinky, #canvas-ghost-inky, #canvas-ghost-clyde { 
-	width: 550px;
-	height: 550px;
+	width: 440px;
+	height: 440px;
 	position: absolute;
 }
 #canvas-paths { 
@@ -118,7 +124,7 @@ span.combo, span.fruits {
 
 #canvas-lifes, #canvas-level-fruits { 
 	height: 30px;
-	top: 670px;
+	top: 70px;
 	position: absolute;
 	z-index: 111111;
 }
@@ -128,7 +134,7 @@ span.combo, span.fruits {
 }
 #canvas-level-fruits { 
 	width: 265px;
-	right: 50px;
+	left: 50px;
 }
 
 #control { 
